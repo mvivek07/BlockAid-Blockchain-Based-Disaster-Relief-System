@@ -213,6 +213,17 @@ Firebase Authentication (from the second screenshot).
 Possibly integrating Ethereum wallet flows using tools like Web3Auth or ethers.js.
 
 ![WhatsApp Image 2025-05-18 at 10 47 08_f19b7128](https://github.com/user-attachments/assets/03d05f1b-71d4-4e6a-a3e6-4b98816bb415)
+It clearly highlights 3 user roles:
+
+Beneficiaries – Can request help.
+
+Donors – Can donate (likely launching Transak).
+
+NGOs – Can partner for verification.
+
+Includes a "Login" button in the top-right.
+
+
 ![WhatsApp Image 2025-05-18 at 10 47 27_76fec7c6](https://github.com/user-attachments/assets/58d79b24-fb58-4f8b-a474-9a5a444f8ef3)
 ![WhatsApp Image 2025-05-18 at 10 50 20_5ef1fe04](https://github.com/user-attachments/assets/1c136da0-ab04-42e0-ac68-cefc7c6fa394)
 
