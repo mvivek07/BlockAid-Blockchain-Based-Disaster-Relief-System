@@ -4,62 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BlockAid - Blockchain-Based Disaster Relief System</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0f172a;
-      color: #f8fafc;
-      margin: 0;
-      padding: 20px;
-      line-height: 1.6;
-    }
-    h1, h2, h3 {
-      color: #38bdf8;
-    }
-    code {
-      background: #1e293b;
-      color: #22d3ee;
-      padding: 2px 5px;
-      border-radius: 4px;
-    }
-    pre {
-      background: #1e293b;
-      padding: 10px;
-      border-radius: 8px;
-      overflow-x: auto;
-    }
-    .section {
-      margin-bottom: 40px;
-    }
-    ul {
-      list-style-type: "✅ ";
-      margin-left: 20px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 10px 0;
-      background-color: #1e293b;
-    }
-    th, td {
-      border: 1px solid #334155;
-      padding: 10px;
-      text-align: left;
-    }
-    th {
-      background-color: #0ea5e9;
-      color: #fff;
-    }
-    img {
-      width: 100%;
-      max-width: 600px;
-      border-radius: 10px;
-      margin-top: 10px;
-    }
-    a {
-      color: #38bdf8;
-    }
-  </style>
+ 
 </head>
 <body>
 
