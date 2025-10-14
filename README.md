@@ -1,233 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlockAid - Blockchain-Based Disaster Relief System</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #38bdf8;
+    }
+    code {
+      background: #1e293b;
+      color: #22d3ee;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+    pre {
+      background: #1e293b;
+      padding: 10px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    ul {
+      list-style-type: "✅ ";
+      margin-left: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0;
+      background-color: #1e293b;
+    }
+    th, td {
+      border: 1px solid #334155;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #0ea5e9;
+      color: #fff;
+    }
+    img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    a {
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body>
 
-BlockAid - Blockchain-Based Disaster Relief System
-🚨 Problem Statement
-Natural disasters often reveal systemic issues in humanitarian aid, including:
+  <h1>🌐 BlockAid - Blockchain-Based Disaster Relief System</h1>
 
-🕒 Delays in fund release and aid delivery
+  <div class="section">
+    <h2>🚨 Problem Statement</h2>
+    <p>Natural disasters often reveal systemic issues in humanitarian aid, including:</p>
+    <ul>
+      <li>🕒 Delays in fund release and aid delivery</li>
+      <li>💸 Corruption and misallocation of resources</li>
+      <li>❌ Lack of transparency and accountability</li>
+      <li>🧾 Inefficient tracking of aid and donations</li>
+    </ul>
+    <p><strong>BlockAid</strong> aims to revolutionize disaster relief using decentralized, transparent, and secure blockchain technology.</p>
+  </div>
 
-💸 Corruption and misallocation of resources
+  <div class="section">
+    <h2>✅ Solution Overview</h2>
+    <p><strong>BlockAid</strong> is a decentralized platform leveraging blockchain, smart contracts, Web3 authentication, and IoT-based real-time tracking to make disaster relief:</p>
+    <ul>
+      <li>Transparent 🔍</li>
+      <li>Efficient ⚡</li>
+      <li>Tamper-proof 🔐</li>
+      <li>User-verified 📲</li>
+    </ul>
+  </div>
 
-❌ Lack of transparency and accountability
+  <div class="section">
+    <h2>✨ Core Features</h2>
+    <ul>
+      <li>Immutable Recordkeeping using Hyperledger Fabric / Polygon</li>
+      <li>Smart Contracts for automated fund release</li>
+      <li>Web3Auth for secure wallet & social login</li>
+      <li>Transak Integration for fiat-to-crypto donations</li>
+      <li>IoT Integration for real-time aid tracking</li>
+      <li>Beneficiary Feedback via mobile/web apps</li>
+      <li>Polygon Smart Contracts for donation verification</li>
+      <li>Lovable AI for decision logic & interactivity</li>
+      <li>Supabase backend for scalable user data</li>
+    </ul>
+  </div>
 
-🧾 Inefficient tracking of aid and donations
+  <div class="section">
+    <h2>🧠 Tech Stack</h2>
+    <table>
+      <tr><th>Layer</th><th>Technologies Used</th></tr>
+      <tr><td>Blockchain</td><td>Hyperledger Fabric, Polygon, Solidity</td></tr>
+      <tr><td>Smart Contracts</td><td>Solidity on Polygon (Mumbai Testnet)</td></tr>
+      <tr><td>Backend</td><td>Supabase, Node.js, Express</td></tr>
+      <tr><td>Frontend</td><td>React.js, React Native, Lovable AI</td></tr>
+      <tr><td>Authentication</td><td>Web3Auth (wallet & social login)</td></tr>
+      <tr><td>Payments</td><td>Transak (Fiat-to-Crypto gateway)</td></tr>
+      <tr><td>IoT</td><td>MQTT / WebSockets</td></tr>
+      <tr><td>AI</td><td>Lovable AI</td></tr>
+      <tr><td>Hosting</td><td>Vercel, Supabase, IPFS</td></tr>
+    </table>
+  </div>
 
-BlockAid aims to revolutionize disaster relief using decentralized, transparent, and secure blockchain technology.
-
-✅ Solution Overview
-BlockAid is a decentralized platform that leverages blockchain, smart contracts, Web3 authentication, and IoT-based real-time tracking to make disaster relief:
-
-Transparent 🔍
-
-Efficient ⚡
-
-Tamper-proof 🔐
-
-User-verified 📲
-
-✨ Core Features
-Immutable Recordkeeping using a permissioned blockchain (Hyperledger Fabric / Polygon)
-
-Smart Contracts for automated fund release on aid verification
-
-Web3Auth for seamless, secure user login via wallets and social accounts
-
-Transak Integration for fiat-to-crypto donations
-
-IoT Integration to track aid delivery in real-time
-
-Beneficiary Feedback Loop via mobile/web apps
-
-Polygon Smart Contracts (Solidity) to handle donation and aid verification
-
-Lovable AI for decision-making logic and interface interactivity
-
-Supabase backend for scalable user and transaction data
-
-🧠 Tech Stack
-Layer	Technologies Used
-Blockchain	Hyperledger Fabric, Polygon, Solidity
-Smart Contracts	Solidity on Polygon (Mumbai Testnet)
-Backend	Supabase (PostgreSQL + Auth), Node.js, Express
-Frontend	React.js (web), React Native (mobile), Lovable AI
-Authentication	Web3Auth (wallet & social login)
-Payments	Transak (Fiat-to-Crypto gateway)
-IoT	Sensor data streams integrated via MQTT/WebSockets
-AI	Lovable AI for UI/UX logic and process intelligence
-Hosting	Vercel (frontend), Supabase (backend), IPFS (optional for metadata)
-
-🚀 Getting Started
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/<your-username>/blockaid.git
-cd blockaid
-2. Install Dependencies
-Backend (Node.js)
-
-bash
-Copy
-Edit
-cd backend
+  <div class="section">
+    <h2>🚀 Getting Started</h2>
+    <ol>
+      <li><strong>Clone the Repository</strong>
+        <pre><code>git clone https://github.com/&lt;your-username&gt;/blockaid.git
+cd blockaid</code></pre>
+      </li>
+      <li><strong>Install Dependencies</strong>
+        <pre><code>cd backend
 npm install
-Frontend (React or React Native)
-
-bash
-Copy
-Edit
-cd frontend
-npm install
-3. Environment Setup
-Create a .env file in each root (/frontend and /backend) with the following values:
-
-/backend/.env
-env
-Copy
-Edit
+cd ../frontend
+npm install</code></pre>
+      </li>
+      <li><strong>Environment Setup</strong>
+        <pre><code>/backend/.env
 SUPABASE_URL=your-supabase-url
 SUPABASE_KEY=your-supabase-service-role-key
 WEB3AUTH_CLIENT_ID=your-web3auth-client-id
-TRANSak_API_KEY=your-transak-key
+TRANSAK_API_KEY=your-transak-key
+
 /frontend/.env
-env
-Copy
-Edit
 REACT_APP_SUPABASE_URL=your-supabase-url
 REACT_APP_SUPABASE_ANON_KEY=your-supabase-anon-key
 REACT_APP_WEB3AUTH_CLIENT_ID=your-web3auth-client-id
-REACT_APP_POLYGON_CHAIN_ID=80001
-4. Smart Contract Deployment (Polygon)
-Navigate to the smart-contracts folder
+REACT_APP_POLYGON_CHAIN_ID=80001</code></pre>
+      </li>
+      <li><strong>Smart Contract Deployment (Polygon)</strong>
+        <pre><code>cd smart-contracts
+npx hardhat run scripts/deploy.js --network mumbai</code></pre>
+      </li>
+    </ol>
+  </div>
 
-Deploy using Hardhat:
+  <div class="section">
+    <h2>💻 Usage Flow</h2>
+    <ul>
+      <li>Donors log in via Web3Auth, donate via Transak, and track fund usage via dashboard.</li>
+      <li>Aid agencies upload plans and track aid via IoT sensors.</li>
+      <li>Beneficiaries confirm receipt using mobile app.</li>
+      <li>Smart contracts release/revoke funds upon verification.</li>
+      <li>All transactions are recorded on Polygon blockchain.</li>
+    </ul>
+  </div>
 
-bash
-Copy
-Edit
-npx hardhat run scripts/deploy.js --network mumbai
-Copy the deployed contract address into your backend/frontend .env files.
+  <div class="section">
+    <h2>🔐 Security & Privacy</h2>
+    <ul>
+      <li>Role-based access for donors, agencies, and recipients.</li>
+      <li>Web3Auth for decentralized, secure logins.</li>
+      <li>Supabase encryption & blockchain cryptography.</li>
+      <li>Smart contract testing (reentrancy, overflow prevention).</li>
+    </ul>
+  </div>
 
-💻 Usage Flow
-Donors log in via Web3Auth, donate via Transak, and track fund usage via the dashboard.
+  <div class="section">
+    <h2>📱 Mobile App (React Native)</h2>
+    <ul>
+      <li>Cross-platform support</li>
+      <li>Low-bandwidth UI for disaster zones</li>
+      <li>Push notifications for aid updates</li>
+      <li>QR verification for delivery agents</li>
+    </ul>
+  </div>
 
-Aid Agencies upload distribution plans and deliver aid tracked via IoT sensors.
+  <div class="section">
+    <h2>📈 Future Goals</h2>
+    <ul>
+      <li>🔄 Automated government API reconciliation</li>
+      <li>🌍 Regional language support</li>
+      <li>🤖 AI-driven supply forecasting</li>
+      <li>📡 Satellite-based aid tracking</li>
+      <li>🏦 On-chain insurance claims</li>
+      <li>💬 Feedback chatbots (WhatsApp/Telegram)</li>
+    </ul>
+  </div>
 
-Beneficiaries confirm aid receipt using their mobile app.
+  <div class="section">
+    <h2>🧪 Testing</h2>
+    <ul>
+      <li>Smart contracts: Hardhat & Mocha</li>
+      <li>Backend APIs: Postman & Jest</li>
+      <li>Frontend: React Testing Library</li>
+      <li>Integration: Mumbai Testnet</li>
+    </ul>
+  </div>
 
-Smart Contracts release or revoke funds based on verifiable delivery.
+  <div class="section">
+    <h2>🤝 Contributing</h2>
+    <p>We welcome contributions!</p>
+    <ol>
+      <li>Fork the repo</li>
+      <li>Create a new branch (<code>feature/&lt;feature-name&gt;</code>)</li>
+      <li>Submit a PR with clear documentation</li>
+    </ol>
+  </div>
 
-All transactions are recorded on Polygon blockchain for audit and transparency.
+  <div class="section">
+    <h2>🖼️ Screenshots</h2>
+    <img src="https://github.com/user-attachments/assets/a88f1094-61bb-40e0-bb48-5d8ff61afd40" alt="Transak Widget Overview">
+    <img src="https://github.com/user-attachments/assets/6b142a6d-b926-49fe-961c-4954d4a246a9" alt="BlockAid DApp Interface">
+    <img src="https://github.com/user-attachments/assets/03d05f1b-71d4-4e6a-a3e6-4b98816bb415" alt="User Roles Overview">
+    <img src="https://github.com/user-attachments/assets/58d79b24-fb58-4f8b-a474-9a5a444f8ef3" alt="Beneficiary UI">
+    <img src="https://github.com/user-attachments/assets/1c136da0-ab04-42e0-ac68-cefc7c6fa394" alt="Donation Flow">
+  </div>
 
-🔐 Security & Privacy
-Role-based access control for agencies, donors, and recipients.
-
-Web3Auth ensures decentralized yet secure login.
-
-All sensitive data encrypted via Supabase policies and blockchain cryptography.
-
-Smart contracts are tested to prevent vulnerabilities (reentrancy, overflows, etc.).
-
-📱 Mobile App (React Native)
-Cross-platform support
-
-Low-bandwidth UI for disaster zones
-
-Push notifications for aid updates
-
-QR code verification for on-ground delivery agents
-
-📈 Future Goals
-🔄 Automated Reconciliation with government databases (via APIs)
-
-🌍 Internationalization: support for regional languages
-
-🤖 AI-driven Supply Forecasting using Lovable AI
-
-📡 Satellite-based Aid Tracking for inaccessible regions
-
-🏦 On-chain Insurance Claims for disaster-affected users
-
-💬 Feedback Chatbots for beneficiaries via WhatsApp/Telegram
-
-🧪 Testing
-Smart contracts: Hardhat & Mocha
-
-Backend APIs: Postman & Jest
-
-Frontend: React Testing Library
-
-Integration: End-to-end flows tested on Mumbai Testnet
-
-🤝 Contributing
-We welcome contributions! Please:
-
-Fork the repo
-
-Create a new branch (feature/<feature-name>)
-
-Submit a PR with clear documentation
-![image](https://github.com/user-attachments/assets/a88f1094-61bb-40e0-bb48-5d8ff61afd40)
-Transak Widget Overview (Buy Crypto To Your Wallet)
-Amount to Pay:
-250 EUR selected by the user.
-
-Payment Methods Available:
-
-SEPA (Manual Bank Transfer)
-
-VISA
-
-Apple Pay
-
-Google Pay
-
-Fee Breakdown:
-
-Total Fees: 2.62 EUR
-
-Exchange Rate: 1 ETH = 2241.77 EUR
-
-Estimated Crypto Received:
-
-0.11035037 ETH
-
-Blockchain Network:
-
-Ethereum Mainnet
-
-Action Button:
-
-Large "Buy Now" button to proceed with the transaction.
-
-Branding:
-
-Footer includes Powered by Transak.
-
-![Screenshot 2025-05-18 085418](https://github.com/user-attachments/assets/6b142a6d-b926-49fe-961c-4954d4a246a9)
-A web3 DApp called BlockAid, using:
-
-Transak for fiat-to-crypto onboarding.
-
-Firebase Authentication (from the second screenshot).
-
-Possibly integrating Ethereum wallet flows using tools like Web3Auth or ethers.js.
-
-![WhatsApp Image 2025-05-18 at 10 47 08_f19b7128](https://github.com/user-attachments/assets/03d05f1b-71d4-4e6a-a3e6-4b98816bb415)
-It clearly highlights 3 user roles:
-
-Beneficiaries – Can request help.
-
-Donors – Can donate (likely launching Transak).
-
-NGOs – Can partner for verification.
-
-Includes a "Login" button in the top-right.
-
-
-![WhatsApp Image 2025-05-18 at 10 47 27_76fec7c6](https://github.com/user-attachments/assets/58d79b24-fb58-4f8b-a474-9a5a444f8ef3)
-![WhatsApp Image 2025-05-18 at 10 50 20_5ef1fe04](https://github.com/user-attachments/assets/1c136da0-ab04-42e0-ac68-cefc7c6fa394)
-
-
-
-
-
+</body>
+</html>
